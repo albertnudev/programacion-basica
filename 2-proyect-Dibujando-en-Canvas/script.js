@@ -1,0 +1,4 @@
+
+const ruta = window.location;
+console.log (ruta);
+document.write('Estás en: ' + ruta);
