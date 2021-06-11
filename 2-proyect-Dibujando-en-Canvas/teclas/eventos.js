@@ -46,3 +46,4 @@ function dibujarTeclado(evento){
         break;
     }
 }
+// Se creará otro repo para hacer una modificación de este proyecto, go to "github.com/albertnudev" //
