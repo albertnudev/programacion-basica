@@ -1,8 +1,8 @@
-const http = require('http');
+let http = require('http');
 
 function sitioweb(req, res){
-    res.writehead(200, {'Content-type': 'test/plain'});
-    res.end
+    res.writeHead(200, {'Content-type': 'test/plain'});
+    res.end('Mi primer servidor ez')
 }
 
 let servidor = http.createServer(sitioweb);
