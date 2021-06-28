@@ -1,7 +1,7 @@
 let http = require('http');
 
 function sitioweb(req, res){
-    res.writeHead(200, {'Content-type': 'test/plain'});
+    res.writeHead(200, {'Content-type': 'text/plain'});
     res.end('Mi primer servidor ez');
 }
 
